@@ -1,53 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home Page</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-              </li>
-              <%if (status == "loggedIn"){ %>
-                <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
-                <%}else{%>
-                  <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
-              <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
-                 <%}%>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="container my-5">
-        <div class="card" style="width: 100%;">
-            <div class="card-body">
-              <%if (status == "loggedIn"){ %>
-                <h5 class="card-title">Welcome <%= user.email.split('@')[0] %></h5>
-              <%}else{%>
-                <%}%>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <%if (status == "loggedIn"){ %>
-                <button class="btn btn-primary"><a href="home.html" style="color: white; text-decoration: none;">Home</button>
+    <head>
+        <title> HistoriaHub </title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+       
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-bar">
+                <a href="home.html"> Home </a>
+                <a href="about.html">About</a>
+                <a href="/login"> Login </a>
+                <a href="roman/roman.html"> Rome </a>
+                <a href="greek/greek.html"> Greece </a>
+                <a href="french/french.html"> France </a>
+                <a href="usa/usa.html"> America </a>
+                
+
+            </div>
+
+            <div class="title-container">
+                <h1 id="historia"><span>Historia</span>Hub</h1>
+                <h4 id="underabout">From Antiquity to Revolution: A History</h4>
+                <p id="descript">Explore the reading sections, then test your knowledge by taking the quizzes. Log in to track your progress and access exclusive content.</p>
+                <%if (status == "loggedIn"){ %>
+                  <h5 class="card-title">Welcome <%= user.email.split('@')[0] %></h5>
                   <button class="btn btn-primary"><a href="/logout" style="color: white; text-decoration: none;">Logout</button>
                 <%}else{%>
+                  <h5 class="card-title">You are not logged in %></h5>
                   <button class="btn btn-primary"><a href="/login" style="color: white; text-decoration: none;">Login</button>
-                    <button class="btn btn-primary"><a href="/register" style="color: white; text-decoration: none;">Register</button>
                   <%}%>
-             
             </div>
-          </div>
-      </div>
-</body>
+
+            <%if (status == "loggedIn"){ %>
+              <h5 class="card-title">Welcome <%= user.email.split('@')[0] %></h5>
+              <button class="btn btn-primary"><a href="/logout" style="color: white; text-decoration: none;">Logout</button>
+            <%}else{%>
+              <h5 class="card-title">You are not logged in %></h5>
+              <button class="btn btn-primary"><a href="/login" style="color: white; text-decoration: none;">Login</button>
+              <%}%>
+
+            <div class="image-container">
+                <!-- Rome -->
+                <div class="image-wrapper">
+                  <a href="roman/roman.html" data-title="Roman Republic">
+                    <img src="images/romerepublic.webp" alt="Roman History">
+                    <div class="overlay"> Roman Republic</div>
+                  </a>
+                </div>
+                <div class="image-wrapper">
+                  <a href="roman/roman.html" data-title="Roman Empire">
+                    <img src="images/romanempire.png" alt="Roman History">
+                    <div class="overlay"> Roman Empire</div>
+                  </a>
+                </div>
+                <!-- Greece -->
+                <div class="image-wrapper">
+                  <a href="greek/greek.html" data-title="Ancient Greece">
+                    <img src="images/athensschool.jpg" alt="Greek History">
+                    <div class="overlay"> Ancient Greece</div>
+                  </a>
+                </div>
+                <div class="image-wrapper">
+                  <a href="greek/greek.html" data-title="Alexander the Great">
+                    <img src="images/alexander.jpg" alt="Greek History">
+                    <div class="overlay">Alexander the Great</div>
+                  </a>
+                </div>
+                <!-- France -->
+                <div class="image-wrapper">
+                  <a href="french/french.html" data-title="French Revolution">
+                    <img src="images/frenchrevolution.jpg" alt="French History">
+                    <div class="overlay">French Revolution</div>
+                  </a>
+                </div>
+                <div class="image-wrapper">
+                  <a href="french/french.html" data-title="Napoleon Bonaparte">
+                    <img src="images/napoleonhorse.jpg" alt="French History">
+                    <div class="overlay">Napoleonic Era</div>
+                  </a>
+                </div>
+                <!-- USA -->
+                <div class="image-wrapper">
+                  <a href="usa/usa.html" data-title="American Revolution">
+                    <img src="images/americanrevolution.jpg" alt="American Revolution">
+                    <div class="overlay">American Revolution</div>
+                  </a>
+                </div>
+                <div class="image-wrapper">
+                  <a href="usa/usa.html" data-title="American Civil War">
+                    <img src="images/civilwar.jpg" alt="American Civil War">
+                    <div class="overlay">American Civil War</div>
+                  </a>
+                </div>
+        
+            </div>
+
+            <div class="footer">
+              <div class="logo-section">
+                <a id="small-historia" href="index.html"><span>Historia</span>Hub</a>
+                <p>© Founded in 2023</p>
+                <p> New York, USA</p>
+                <p></p>
+              </div>
+              
+              <div class="footer-section">
+                <p class="footer-title">FAQs</p>
+                <a href="about.html">About</a>
+                <a href="about.html#mission">Mission</a>
+                <a href="about.html#story">Story</a>
+                <a href="about.html#contact">Contact</a>
+              </div>
+
+              <div class="footer-section">
+                <p class="footer-title">Learn</p>
+                <a href="roman/roman.html"> Rome </a>
+                <a href="greek/greek.html"> Greece </a>
+                <a href="french/french.html"> France </a>
+                <a href="usa/usa.html"> America </a>
+              </div>
+
+              <div class="footer-section">
+                <p class="footer-title">User</p>
+                <a href="#">Login</a>
+                <a href="#">Logout</a>
+                <a href="#">Register</a>
+              </div>
+
+              <div class="footer-section">
+                <p class="footer-title">Features</p>
+                <a id="atlas-explora" href="https://atlasexplora.netlify.app/">Atlas Explora</a>
+                <a href="#">Coming Soon...</a>
+                <a href="index.html">Jump to Top</a>
+              </div>
+              
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+
 </html>

@@ -4,10 +4,10 @@ const logout = require("../controllers/logout");
 const loggedIn = require("../controllers/loggedIn");
 
 router.get("/", loggedIn, (req, res) => {
-    if(req.user) {
+    if(req.user) { //if user is logged in send there to index.ejs
         res.render("index", {status:"loggedIn", user:req.user});
     }
-    else {
+    else {  //if not logged in just send them to historiahub Homepage
         res.sendFile("home.html", { root: "./public/" }); 
     }
 })

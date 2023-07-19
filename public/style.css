@@ -306,3 +306,14 @@ active,.nav-bar a:hover{
 
 
 /* END OF FOOTER SECTION */
+
+/* START OF LOGIN/REGISTER SECTION */
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* END OF LOGIN/REGISTER SECTION */

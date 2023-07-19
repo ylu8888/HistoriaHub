@@ -25,8 +25,8 @@ body{
 .nav-bar a{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 20px;
     padding: 10px;
+    font-size: 20px;
     color: white; 
     text-decoration: none; /*remove underline*/
     border-radius: 10px;

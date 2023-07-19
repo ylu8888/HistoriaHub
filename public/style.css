@@ -68,7 +68,7 @@ active,.nav-bar a:hover{
 }
 
 #historia{
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     margin-bottom: 10px;
 }
@@ -80,14 +80,20 @@ active,.nav-bar a:hover{
 }
 
 #underabout{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: -3px;
+    margin-bottom: 10px;
     font-size: 18px;
 }
 
 #descript{
   margin-top: 7px;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
 }
 
 .container {
@@ -317,3 +323,46 @@ active,.nav-bar a:hover{
 }
 
 /* END OF LOGIN/REGISTER SECTION */
+
+/*START USER LOGGED IN STATUS */
+
+.user-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid rgb(97, 214, 253); 
+  width: 20%;
+  height: 70px;
+  margin: auto;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.card-title{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.login-btn{
+  background-color: rgb(97, 214, 253); 
+  color: black; 
+  text-decoration: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  margin-bottom: 2px;
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+.login-btn:hover{
+  background-color: gold;
+  color: white; 
+
+}
+
+/*END OF USER LOGGED IN STATUS */

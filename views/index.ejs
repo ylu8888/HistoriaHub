@@ -12,7 +12,7 @@
     <body>
         <div class="container">
             <div class="nav-bar">
-                <a href="home.html"> Home </a>
+                <a href="/"> Home </a>
                 <a href="about.html">About</a>
                 <a href="/login"> Login </a>
                 <a href="roman/roman.html"> Rome </a>
@@ -26,23 +26,22 @@
             <div class="title-container">
                 <h1 id="historia"><span>Historia</span>Hub</h1>
                 <h4 id="underabout">From Antiquity to Revolution: A History</h4>
-                <p id="descript">Explore the reading sections, then test your knowledge by taking the quizzes. Log in to track your progress and access exclusive content.</p>
-                <%if (status == "loggedIn"){ %>
-                  <h5 class="card-title">Welcome <%= user.email.split('@')[0] %></h5>
-                  <button class="btn btn-primary"><a href="/logout" style="color: white; text-decoration: none;">Logout</button>
-                <%}else{%>
-                  <h5 class="card-title">You are not logged in %></h5>
-                  <button class="btn btn-primary"><a href="/login" style="color: white; text-decoration: none;">Login</button>
-                  <%}%>
+          
             </div>
 
-            <%if (status == "loggedIn"){ %>
-              <h5 class="card-title">Welcome <%= user.email.split('@')[0] %></h5>
-              <button class="btn btn-primary"><a href="/logout" style="color: white; text-decoration: none;">Logout</button>
-            <%}else{%>
-              <h5 class="card-title">You are not logged in %></h5>
-              <button class="btn btn-primary"><a href="/login" style="color: white; text-decoration: none;">Login</button>
-              <%}%>
+            <div class="user-container">
+              <% if (status == "loggedIn") { %>
+                <p class="card-title">Welcome <%= user.email.split('@')[0] %>,</p>
+                <p class="card-title">You are logged in!</p>
+                <button class="login-btn"><a href="/logout" style="color: black; text-decoration: none;">Logout</button>
+              <% } else { %>
+                <p class="card-title">Welcome user, you are not logged in</p>
+                <button class="login-btn"><a href="/login" style="color: black; text-decoration: none;">Login</button>
+              <% } %>
+                
+            </div>
+
+            <p id="descript">Explore the reading sections, then test your knowledge by taking the quizzes. Log in to track your progress and access exclusive content.</p>
 
             <div class="image-container">
                 <!-- Rome -->
@@ -126,9 +125,9 @@
 
               <div class="footer-section">
                 <p class="footer-title">User</p>
-                <a href="#">Login</a>
-                <a href="#">Logout</a>
-                <a href="#">Register</a>
+                <a href="/login">Login</a>
+                <a href="/logout">Logout</a>
+                <a href="/register">Register</a>
               </div>
 
               <div class="footer-section">

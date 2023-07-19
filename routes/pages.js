@@ -10,6 +10,7 @@ router.get("/", loggedIn, (req, res) => {
     else {  //if not logged in just send them to historiahub Homepage
         res.sendFile("home.html", { root: "./public/" }); 
     }
+   
 })
 router.get("/register", (req, res) => {
     res.sendFile("register.html", {root:"./public/"});

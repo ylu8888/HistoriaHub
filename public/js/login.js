@@ -22,7 +22,7 @@ form.addEventListener("submit", () => {
             success.style.display = "block"
             success.innerText = data.success
             setTimeout(() => {
-                window.open('../home.html', '_self'); //redirects to home after login
+                window.open('/', '_self'); //redirects to home after login
             }, 500); 
         }
     })

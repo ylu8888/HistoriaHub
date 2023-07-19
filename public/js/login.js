@@ -21,9 +21,9 @@ form.addEventListener("submit", () => {
             error.style.display = "none"
             success.style.display = "block"
             success.innerText = data.success
-             setTimeout(() => {
-                window.open('/home', '_self'); //redirects to home after login
-              }, 500); 
+            setTimeout(() => {
+                window.open('./home', '_self'); //redirects to home after login
+            }, 500); 
         }
     })
 })

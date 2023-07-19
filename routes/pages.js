@@ -9,6 +9,8 @@ router.get("/", loggedIn, (req, res) => {
     }
     else {  //if not logged in just send them to historiahub Homepage
         res.sendFile("home.html", { root: "./public/" }); 
+        //note that home.html and index are different, only loggedin users can see exclusive content via Index
+        //users not logged in cannot access the member-only content
     }
    
 })

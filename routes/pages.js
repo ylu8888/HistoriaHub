@@ -7,8 +7,8 @@ router.get("/", loggedIn, (req, res) => {
     if(req.user) {
         res.render("index", {status:"loggedIn", user:req.user});
     }
-    else{
-        res.render("index", {status:"no", user: "nothing"});
+    else {
+        res.sendFile("home.html", { root: "./public/" }); 
     }
 })
 router.get("/register", (req, res) => {

@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     
 </head>
-<body>
+<body style="background-image: url(/images/fallofrome.jpg); min-height: 100vh; background-size: cover;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">HistoriaHub</a>
@@ -32,7 +32,8 @@
         </div>
       </nav>
       <div class="container my-5">
-        <div class="card" style="width: 100%;">
+        <div class="card" style="width: 30%; color: white; background-color: transparent; border: 1.5px solid #ffffff;
+        position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);">
             <div class="card-body">
               <h5 class="card-title">Register Form</h5>
               <form onsubmit="return false;" id="form">
@@ -40,7 +41,7 @@
                   <label for="email" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                   autocomplete="off" required>
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div id="emailHelp"  style="color: white;" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
                   <label for="password" class="form-label">Password</label>

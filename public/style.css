@@ -54,7 +54,7 @@ active,.nav-bar a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(97, 214, 253); 
 }
 
 .title-container{
@@ -367,3 +367,37 @@ active,.nav-bar a:hover{
 }
 
 /*END OF USER LOGGED IN STATUS */
+
+/* HISTORY INFO */
+
+.section-container{
+  margin-bottom: 30px;
+}
+.section-image{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 40%;
+}
+
+
+.section-header{
+  color: rgb(97, 214, 253); 
+  text-align:left;
+  margin-left: 20%;
+}
+
+.paragraphs{
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 30px;
+  
+}

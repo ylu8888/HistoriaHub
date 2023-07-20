@@ -54,7 +54,7 @@ active,.nav-bar a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(97, 214, 253); 
+  color: white; 
 }
 
 .title-container{

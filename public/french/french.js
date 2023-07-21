@@ -245,15 +245,15 @@ const questions = [
         else{
           //we reached end of quiz
             if(counter == 15){
-                quizTitle.innerHTML = `100%! You got all ${counter}/15 correct, you are a GOD!`;
+                quizTitle.innerHTML = `100%! You got all ${counter}/15 correct, you mastered this section!`;
     
             }
             else if(counter < 11){
-                quizTitle.innerHTML = `Yikes! Only ${counter}/15 correct, get better kid...`;
+                quizTitle.innerHTML = `You got ${counter}/15 correct, review this section again!!`;
                
             }
             else{
-                quizTitle.innerHTML = `You got ${counter}/15 correct, better luck next time!`;
+                quizTitle.innerHTML = `You got ${counter}/15 correct, a bit more studying and you'll be perfect!`;
              
             }
             //reveal quiz score and the restart button

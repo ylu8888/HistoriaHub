@@ -54,7 +54,7 @@ active,.nav-bar a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; 
+  color: rgb(97, 214, 253);
   margin-bottom: 0px;
 }
 
@@ -424,6 +424,29 @@ active,.nav-bar a:hover{
   height: 30px;
   width: 8%;
   font-size: 14px;
+}
+
+.finished-read-btn{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(97, 214, 253);
+  color: black;
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  width: 10%;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.finish-btn-link{
+  color: black;
+}
+.finish-btn-link:hover{
+  color: white;
 }
 
 

@@ -55,6 +55,7 @@ active,.nav-bar a:hover{
   justify-content: center;
   align-items: center;
   color: white; 
+  margin-bottom: 0px;
 }
 
 .title-container{
@@ -368,7 +369,7 @@ active,.nav-bar a:hover{
 
 /*END OF USER LOGGED IN STATUS */
 
-/* HISTORY INFO */
+/* START OF HISTORY INFO PAGES*/
 
 .section-container{
   margin-bottom: 30px;
@@ -401,3 +402,34 @@ active,.nav-bar a:hover{
   margin-bottom: 30px;
   
 }
+
+.quiz-take-container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.finish-reading{
+  color: white;
+}
+
+.quiz-start-btn{
+  background-color: rgb(97, 214, 253);
+  color: black;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  height: 28px;
+  width: 8%;
+}
+
+
+/* END OF HISTORY INFO PAGES*/
+
+/* QUIZ CSS */
+
+
+
+/* END OF QUIZ CSS */

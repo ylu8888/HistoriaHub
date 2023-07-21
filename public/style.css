@@ -418,18 +418,17 @@ active,.nav-bar a:hover{
 .quiz-start-btn{
   background-color: rgb(97, 214, 253);
   color: black;
-  border-radius: 8px;
+  border-radius: 10px;
   border: none;
   margin-bottom: 20px;
-  height: 28px;
+  height: 30px;
   width: 8%;
+  font-size: 14px;
 }
 
 
 /* END OF HISTORY INFO PAGES*/
 
-/* QUIZ CSS */
 
 
 
-/* END OF QUIZ CSS */

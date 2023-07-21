@@ -35,7 +35,7 @@ const questions = [
         question: "Where was Napoleon born in?",
         answers: [
           { text: "Italy", correct: false },
-          { text: "Greece", correct: false },
+          { text: "Paris", correct: false },
           { text: "Spain", correct: false },
           { text: "Corsica", correct: true },
         ],
@@ -92,16 +92,6 @@ const questions = [
       },
       {
         //10
-        question: "Who was the leader of the Committee of Public Safety during the Reign of Terror?",
-        answers: [
-          { text: "Maximilien Robespierre", correct: true },
-          { text: "Napoleon Bonaparte", correct: false },
-          { text: "Louis XVI", correct: false },
-          { text: "Marie Antoinette", correct: false }
-        ]
-      },
-      {
-        //11
         question: "In the Russian campaign of 1812, Napoleon was faced with which Russian tactic?",
         answers: [
           { text: "Divide-and-conquer", correct: false },
@@ -110,7 +100,7 @@ const questions = [
           { text: "Castling", correct: false }
         ]
       },
-      { //12
+      { //11
         question: "Who was Napoleon's first wife?",
         answers: [
           { text: "Marie Antoinette", correct: false },
@@ -120,7 +110,7 @@ const questions = [
         ]
       },
       {
-        //13
+        //12
         question: "Who led the British forces in the Peninsular War?",
         answers: [
           { text: "Joseph McCarthy", correct: false },
@@ -129,25 +119,35 @@ const questions = [
           { text: "The Duke of Wellington", correct: true }
         ]
       },
+      { //13
+        question: "At which nation's economy was the Continental System aimed?",
+        answers: [
+        { text: "Britain", correct: true },
+        { text: "Austria", correct: false },
+        { text: "Russia", correct: false },
+        { text: "United States", correct: false }
+        ]
+        },
       { //14
-        question: "Of what did Napoleon die?",
+        question: "Napoleon first made a name for himself as a military leader at the siege of what French city?",
         answers: [
-          { text: "Stomach cancer", correct: true },
-          { text: "Heart attack", correct: false },
-          { text: "Pneumonia", correct: false },
-          { text: "Yellow fever", correct: false }
+        { text: "Paris", correct: false },
+        { text: "Marseille", correct: false },
+        { text: "Le Havre", correct: false },
+        { text: "Toulon", correct: true }
         ]
-      },
-        //15
-      {
-        question: "Which famous prison was stormed by the Parisians on July 14, 1789?",
-        answers: [
-          { text: "Bastille", correct: true },
-          { text: "Versailles", correct: false },
-          { text: "Tuileries Palace", correct: false },
-          { text: "Louvre", correct: false }
-        ]
-      },
+        },
+        {//15
+          question: "Which landmark agreement reorganized Europe after the Napoleonic Wars?",
+          answers: [
+          { text: "The Congress of Venice", correct: false },
+          { text: "The Congress of Ventnor Ave", correct: false },
+          { text: "The Congress of Venetia", correct: false },
+          { text: "The Congress of Vienna", correct: true }
+          ]
+          }
+    
+     
       
 ];
     
@@ -248,7 +248,7 @@ const questions = [
                 quizTitle.innerHTML = `100%! You got all ${counter}/15 correct, you mastered this section!`;
     
             }
-            else if(counter < 11){
+            else if(counter < 12){
                 quizTitle.innerHTML = `You got ${counter}/15 correct, review this section again!!`;
                
             }

@@ -56,6 +56,7 @@ active,.nav-bar a:hover{
   align-items: center;
   color: rgb(97, 214, 253);
   margin-bottom: 0px;
+
 }
 
 .title-container{
@@ -379,7 +380,7 @@ active,.nav-bar a:hover{
   display: flex;
   align-items: center;
   margin: auto;
-  width: 30%;
+  width: 40%;
   height: 40%;
 }
 
@@ -399,7 +400,8 @@ active,.nav-bar a:hover{
   width: 60%;
   font-size: 18px;
   line-height: 2;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  text-indent: 30px;
   
 }
 

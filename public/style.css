@@ -382,6 +382,8 @@ active,.nav-bar a:hover{
   margin: auto;
   width: 40%;
   height: 40%;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 
@@ -400,7 +402,7 @@ active,.nav-bar a:hover{
   width: 60%;
   font-size: 18px;
   line-height: 2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-indent: 30px;
   
 }
@@ -442,6 +444,7 @@ active,.nav-bar a:hover{
   width: 10%;
   font-size: 14px;
   margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 .finish-btn-link{

@@ -242,7 +242,7 @@ answers: [
     
             }
             else if(counter < 12){
-                quizTitle.innerHTML = `You got ${counter}/15 correct, review this section again!!`;
+                quizTitle.innerHTML = `You got ${counter}/15 correct, you should review this section again!`;
                
             }
             else{

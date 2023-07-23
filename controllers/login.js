@@ -6,10 +6,10 @@ const login = async (req, res) => {
     const {email, password} = req.body;
     if(!email || !password) return res.json({status:"error", error:"Enter your email and password"});
     else{
-        //don't use SELECT email or else will get error since password isn't present
+        //don't use SELECT email use SELECT * or else will get error since password isn't present
         db.query('SELECT * FROM users WHERE email = ?', [email], async (Err, result) => {
             if(Err) throw Err;
-            //if user's email or pw is wrong, don't show which is wrong, just say login credentials are wrong 
+            //if user's email or pw is wrong, don't indicate which is wrong, just say login credentials are wrong 
             //otherwise hacker might brute force into server if he knows ones wrong
             if(!result.length || !await bcrypt.compare(password, result[0].password)){
                 return res.json({status: "error", error:"Incorrect email or password"})

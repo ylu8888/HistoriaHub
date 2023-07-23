@@ -1,10 +1,10 @@
 const questions = [
     { //1
-        question: "Who was the legendary founder of Rome?",
+        question: "Who was a legendary founder of Rome?",
         answers: [
           { text: "Julius Caesar", correct: false },
           { text: "Augustus", correct: false },
-          { text: "Remus", correct: false },
+          { text: "Claudius", correct: false },
           { text: "Romulus", correct: true }
         ]
     },

@@ -23,13 +23,13 @@ const questions = [
         "answers": [
         { "text": "Delphi", correct: false },
         { "text": "Sparta", correct: false },
-        { "text": "Athens", correct: true },
-        { "text": "Corinth", ccorrect: false }
+        { "text": "Corinth", ccorrect: false },
+        { "text": "Athens", correct: true }
         ]
         },
        
             { //4
-                "question": "What major civilization that came soon after the Greeks was greatly influenced by the Greek culture?",
+                "question": "What major civilization that came soon after the Greeks was greatly influenced by Greek culture?",
                 "answers": [
                   
                   { "text": "Egyptians", correct: false },
@@ -60,9 +60,9 @@ const questions = [
               {//7
                 "question": "The Delian League was formed as a defensive alliance against:",
                 "answers": [
+                    { "text": "Persia", correct: true },
                   { "text": "Sparta", correct: false },
-                  { "text": "Persia", correct: true },
-                  { "text": "Macedon", correct: false },
+                  { "text": "Rome", correct: false },
                   { "text": "Troy", correct: false }
                 ]
               },
@@ -78,9 +78,9 @@ const questions = [
               { //9
                 question: "At which famous battle did the outnumbered Greeks defeat the Persian Empire in 490 BC?",
                 answers: [
+                    { text: "Battle of Thermopylae", correct: false },
+                    { text: "Battle of Marathon", correct: true },
                   { text: "Battle of Salamis", correct: false },
-                  { text: "Battle of Marathon", correct: true },
-                  { text: "Battle of Thermopylae", correct: false },
                   { text: "Battle of Plataea", correct: false }
                 ]
               },
@@ -145,7 +145,7 @@ const questions = [
                   
                   { text: "League of Corinth", correct: false },
                   { text: "Conquest by Persia", correct: false },
-                  { text: "The Athenian Famine", correct: false },
+                  { text: "The Spartan Famine", correct: false },
                   { text: "Colonizing Movement", correct: true }
                  
                 ]

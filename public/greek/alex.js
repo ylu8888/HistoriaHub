@@ -21,10 +21,11 @@ const questions = [
       { //3
         question: "Against which enemy did the Macedonians have to face elephants?",
         answers: [
-          { text: "Porus", correct: true },
+          { text: "Oxyartes", correct: false },
           { text: "Spitamenes ", correct: false },
+          { text: "Porus", correct: true },
           { text: "Darius", correct: false },
-          { text: "Oxyartes", correct: false }
+
         ]
       },
       { //4
@@ -130,12 +131,12 @@ const questions = [
         ]
       },
       { //15
-        question: "Where did Alexander the Great die?",
+        question: "After Alexander the Great died, which of these did NOT happen to his empire?",
         answers: [
-          { text: "Phoenicia", correct: false },
-          { text: "India", correct: false },
-          { text: "Macedonia", correct: false },
-          { text: "Babylon", correct: true },
+          { text: "It was divided between his generals", correct: false },
+          { text: "It was conquered by the Romans", correct: false },
+          { text: "It was passed to his son Alexander II", correct: true },
+          { text: "King Philip III ascended the throne", correct: false },
        
         ]
       },

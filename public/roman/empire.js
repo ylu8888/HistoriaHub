@@ -12,8 +12,8 @@ const questions = [
         question: "Who was the last Roman emperor of the Western Roman Empire?",
         answers: [
           { text: "Constantine the Great", correct: false },
-          { text: "Nero", correct: false },
           { text: "Romulus Augustus", correct: true },
+          { text: "Nero", correct: false },
           { text: "Trajan", correct: false }
         ]
     },

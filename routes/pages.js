@@ -3,6 +3,7 @@ const router = express.Router();
 const logout = require("../controllers/logout");
 const loggedIn = require("../controllers/loggedIn");
 
+//forward slash is just the url for the homepage
 router.get("/", loggedIn, (req, res) => {
     if(req.user) { //if user is logged in send there to index.ejs
         res.render("index", {status:"loggedIn", user:req.user});

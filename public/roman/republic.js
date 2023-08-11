@@ -1,3 +1,4 @@
+
 const questions = [
     { //1
         question: "Who was a legendary founder of Rome?",
@@ -216,7 +217,8 @@ answers: [
         const selectedButton = e.target; //see which button was clicked
         const correct = selectedButton.dataset.correct; //see if answer was correct
         if(correct){
-            counter++;
+          counter++; // Assuming you have stored the user's id in the req.user object
+         
         }
         //see if body should be sent to correct or wrong
         setStatusClass(document.body, correct);

@@ -22,5 +22,13 @@ router.get("/login", (req, res) => {
     res.sendFile("login.html", { root: "./public/"});
 })
 
+/*
+router.post("/api/update", (req, res, next) => {
+    // Assuming you have stored the user's ID in the req.user object
+    req.userId = req.user.id;
+    next();
+  }, update);
+  */
+
 router.get("/logout", logout)
 module.exports = router;

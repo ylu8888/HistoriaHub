@@ -322,6 +322,7 @@ active,.nav-bar a:hover{
   justify-content: center;
   align-items: center;
   height: 100%;
+  background-color: rgb(32, 33, 36);
 }
 
 /* END OF LOGIN/REGISTER SECTION */

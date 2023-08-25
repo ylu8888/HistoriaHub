@@ -15,18 +15,19 @@ const questions = [
         "question": "What infamous phrase did Queen Marie Antoinette say, contributing to her negative reputation?",
          "answers": [
             { "text": "Liberté, égalité, fraternité", "correct": false },
-            { "text": "Vive la révolution", "correct": false },
             { "text": "Let them eat cake", "correct": true },
+            { "text": "Vive la révolution", "correct": false },
             { "text": "L'État, c'est moi", "correct": false }
         ]
         },
       { //3
         question: "Which factor did not contribute to France’s pre-revolution debt?",
         answers: [
+          { text: "High tariffs on imported goods", correct: true },
+          { text: "Cost of maintaining the army/navy", correct: false },
             { text: "The Seven Years’ War", correct: false },
-            { text: "Cost of maintaining the army/navy", correct: false },
             { text: "Upkeep at Versailles", correct: false},
-            { text: "High tariffs on imported goods", correct: true }
+            
         ]
     },
       { //4
@@ -55,15 +56,15 @@ const questions = [
           { "text": "The execution of King Louis XVI", "correct": false },
           { "text": "The fall of the Bastille", "correct": false },
           { "text": "The Reign of Terror", "correct": false },
-          { "text": "Suppression of a royalist uprising by Napoleon", "correct": true }
+          { "text": "Napoleon suppressing a royalist uprising ", "correct": true }
         ]
       },
     { //7
         question: "What was the main reason that several thousand women marched on Versailles in October 1789?",
         answers: [
             { text: "Universal suffrage for women", correct: false },
-            { text: "An influenza outbreak", correct: false },
             {text: "Bread shortages in Paris", correct: true },
+            { text: "An influenza outbreak", correct: false },
             { text: "Marie-Antoinette’s cake", correct: false }
         ]
     }, //8
@@ -125,8 +126,8 @@ const questions = [
         "question": "The French revolutionary leader Marquis de Lafayette was famous for his involvement in what other event?",
         "answers": [
           { "text": "The Napoleonic Wars", "correct": false },
-          { "text": "The American Revolution", "correct": true },
           { "text": "The English Civil War", "correct": false },
+          { "text": "The American Revolution", "correct": true },
           { "text": "St Bartholomew Day Massacre", "correct": false }
         ]
       },

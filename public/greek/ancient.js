@@ -129,7 +129,7 @@ const questions = [
                 ]
               },
               { //14
-                question: "Who wrote the Ancient Greek epic poems, The Odyssey and The Iliad?",
+                question: "Who wrote the ancient Greek epic poems, The Odyssey and The Iliad?",
                 answers: [
                   
                   { text: "Demeter", correct: false },

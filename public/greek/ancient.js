@@ -107,13 +107,13 @@ const questions = [
                 ]
               },
               { //12
-                question: "In Greek mythology, what creature resided in the Labyrinth and was slayed by Theseus?",
+                question: "The Ancient Greeks descended from which people?",
                 answers: [
                 
-                  { text: "Cerberus", correct: false },
-                  { text: "Minotaur", correct: true },
-                  { text: "Nemean Lion", correct: false },
-                  { text: "Medusa", correct: false }
+                  { text: "Mycenaeans", correct: true },
+                  { text: "Trojans", correct: false },
+                  { text: "Olympians", correct: false },
+                  { text: "Grekianos", correct: false }
                  
                 ]
               },
@@ -129,13 +129,13 @@ const questions = [
                 ]
               },
               { //14
-                question: "In Greek mythology, what did Prometheus steal from Mount Olympus and give to humankind?",
+                question: "Who wrote the Ancient Greek epic poems, The Odyssey and The Iliad?",
                 answers: [
                   
-                  { text: "Bread", correct: false },
-                  { text: "Wine", correct: false },
-                  { text: "Gold", correct: false },
-                  { text: "Fire", correct: true }
+                  { text: "Demeter", correct: false },
+                  { text: "Homer", correct: true },
+                  { text: "Socrates", correct: false },
+                  { text: "Plato", correct: false }
                  
                 ]
               },

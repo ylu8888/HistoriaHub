@@ -91,7 +91,7 @@ const questions = [
                             ]
                             },
                             { //11
-                                question: "Who wrote the Meditations?",
+                                question: "Who wrote about Stoic philosophy in 'Meditations'?",
                                 answers: [
                                 { text: "Plautus", correct: false },
                                 { text: "Marcus Aurelius", correct: true },

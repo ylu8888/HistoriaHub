@@ -21,7 +21,7 @@ Login Page:
 
 Reading Section:
 
-![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/ff771953-0a4f-454c-89ab-3e5fa8079ab6)
+![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/29a5ab2a-85ab-489a-a38c-73fa3eeed509)
 
 Quiz Section:
 

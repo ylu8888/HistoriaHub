@@ -15,7 +15,7 @@ const questions = [
           { text: 'Julius Caesar, Brutus, and Cicero', correct: false },
           { text: 'Julius Caesar, Pompey, and Crassus', correct: true },
           { text: 'Julius Caesar, Brutus, and Cassius', correct: false },
-          { text: 'Julius Caesar, Mark Antony, and Pompey', correct: false },
+          { text: 'Octavian, Mark Antony, and Pompey', correct: false },
           
         ]
       },

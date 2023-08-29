@@ -8,7 +8,8 @@ Online educational platform exhibiting Roman, Greek, &amp; other history with qu
 
 -Stored user data in SQL database to track their quiz/reading progress & suggest improvements
 
--Used Node.js, Express, MySQL, Bootstrap, JS, HTML, CSS, & deployed to Heroku
+-Used Node.js, Express, MySQL, Bootstrap, JS, HTML, CSS, & deployed to Render
+
 
 
 Website Home Page: 

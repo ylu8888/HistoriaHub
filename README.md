@@ -1,10 +1,10 @@
 # HistoriaHub  
 
-# Website Link: https://historiahub.onrender.com/
+## Website Link: https://historiahub.onrender.com/
 
-Full Stack Personal Project: 
+** Full Stack Personal Project: 
 
-Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes
+Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes **
 
 Tech Used: Node.js, Express, MySQL, Bootstrap, JS, HTML, CSS, & deployed to Render
 

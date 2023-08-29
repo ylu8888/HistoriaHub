@@ -10,7 +10,7 @@ Tech Used: Node.js, Express, MySQL, Bootstrap, JS, HTML, CSS, & deployed to Rend
 
 -Implemented a user login system to allow CRUD operations on the user list & authentication
 
--Stored user data in SQL database to track their quiz/reading progress & suggest improvements
+-Stored user data in MySQL database to track their quiz/reading progress & suggest improvements
 
 WEBSITE PREVIEW:
 

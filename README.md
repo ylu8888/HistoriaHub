@@ -18,6 +18,8 @@ HOME PAGE:
 
 ![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/27177c9e-218b-4afe-8bc4-cc44e1581565)
 
+![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/bd46a5af-602c-4642-980a-dadba548d3bf)
+
 LOGIN PAGE:
 
 ![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/86052f5e-1bb7-485b-9e70-ceb82d9c3365)

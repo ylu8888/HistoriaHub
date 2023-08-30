@@ -11,7 +11,7 @@ const login = async (req, res) => {
             if(Err) throw Err;
             //if user's email or pw is wrong, don't indicate which is wrong, just say login credentials are wrong 
             //otherwise hacker might brute force into server if he knows ones wrong
-            if(!result[0] || !await bcrypt.compare(password, result[0].password)){
+            if(!result.length || !await bcrypt.compare(password, result[0].password)){
                 return res.json({status: "error", error:"Incorrect email or password"})
             }
             else{

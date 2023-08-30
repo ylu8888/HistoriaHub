@@ -5,25 +5,26 @@ const questions = [
             { text: 'Julius Caesar', correct: false},
             { text: 'Augustus', correct: true},
             { text: 'Marcus Aurelius', correct: false},
-            { text: 'Hadrian', correct: false}
+            { text: 'Romulus', correct: false}
         ]
     },
     { //2
-        question: "Who was the last Roman emperor of the Western Roman Empire?",
+        question: "The period of Roman expansion under Augustus ended after the Battle of Teutoburg Forest when Roman legions where ambushed by:",
         answers: [
-          { text: "Constantine the Great", correct: false },
-          { text: "Romulus Augustus", correct: true },
-          { text: "Nero", correct: false },
-          { text: "Trajan", correct: false }
+          
+          { text: "Spartan Warriors", correct: false },
+          { text: "Egyptian Forces", correct: false },
+          { text: "Germanic Tribes", correct: true },
+          { text: "Jewish Tribes", correct: false }
         ]
     },
     { //3
-        question: "Which Roman structure commissioned by Emperor Vespasian is famous for its gladiator contests and public spectacles?",
+        question: "Which Roman structure commissioned by Vespasian is famous for its gladiator contests and public spectacles?",
         answers: [
           { text: "Pantheon", correct: false },
           { text: "Roman Forum", correct: false },
-          { text: "Circus Maximus", correct: true },
-          { text: "Colosseum", correct: false }
+          { text: "Circus Maximus", correct: false },
+          { text: "Colosseum", correct: true }
         ]
     },
     { //4
@@ -55,16 +56,16 @@ const questions = [
             ]
             },
             { //7
-                question: "Who was the emperor during the first year of the Pax Romana?",
+                question: "Which Roman general famously crossed the Rubicon River, leading to a conflict that ultimately ended the Roman Republic?",
                 answers: [
-                { text: "Tiberius", correct: false },
-                { text: "Augustus", correct: true },
-                { text: "Aemilian", correct: false },
-                { text: "Galba", correct: false }
+                { text: "Gaius Marius", correct: false },
+                { text: "Lucius Sulla", correct: false },
+                { text: "Julius Caesar", correct: true },
+                { text: "Caesar Augustus", correct: false }
                 ]
                 },
                 { //8
-                    question: "Which Roman emperor was the first to profess Christianity?",
+                    question: "Which Roman emperor was the first to profess Christianity and issued the Edict of Milan?",
                     answers: [
                     { text: "Severus Alexander", correct: false },
                     { text: "Maximinus Thrax", correct: false },
@@ -73,7 +74,7 @@ const questions = [
                     ]
                     },
                     { //9
-                        question: "The Five Good Emperors included Trajan, Hadrian, Antoninus Pius, Marcus Aurelius, and who else?",
+                        question: "The Five Good Emperors included Trajan, Hadrian, Antoninus Pius, Marcus Aurelius, and:",
                         answers: [
                         { text: "Claudius", correct: false },
                         { text: "Nerva", correct: true },
@@ -82,36 +83,36 @@ const questions = [
                         ]
                         },
                         { //10
-                            question: "What was the earliest written legislation of ancient Roman law called?",
+                            question: "The period of relative peace and stability within the Roman Empire that lasted for about two centuries is known as:",
                             answers: [
-                            { text: "Liber Judiciorum", correct: false },
-                            { text: "Code of Justinian", correct: false },
-                            { text: "Law of the Twelve Tables", correct: true },
-                            { text: "Code of Canon Law", correct: false }
+                            { text: "Pax Britannica", correct: false },
+                            { text: "Pax Augusta", correct: false },
+                            { text: "Pax Romana", correct: true },
+                            { text: "Pax Sinica", correct: false }
                             ]
                             },
                             { //11
-                                question: "Who wrote about Stoic philosophy in 'Meditations'?",
+                                question: "Which Roman Emperor wrote about Stoic philosophy in 'Meditations'?",
                                 answers: [
-                                { text: "Plautus", correct: false },
+                                { text: "Epictetus", correct: false },
                                 { text: "Marcus Aurelius", correct: true },
-                                { text: "Ovid", correct: false },
-                                { text: "Lucan", correct: false }
+                                { text: "Cicero", correct: false },
+                                { text: "Seneca", correct: false }
                                 ]
                                 },
                                 { //12
-                                    question: "Which Roman emperor self-adopted a title that means 'restorer of the world'?",
+                                    question: "What battle marked the start of events that led to the fall of the Western Roman Empire?",
                                     answers: [
-                                    { text: "Valerian", correct: false },
-                                    { text: "Saloninus", correct: false },
-                                    { text: "Gallienus", correct: false },
-                                    { text: "Aurelian", correct: true }
+                                    { text: "Battle of Adrianople", correct: true },
+                                    { text: "Battle of Abritus", correct: false },
+                                    { text: "Battle of Teutoburg Forest", correct: false },
+                                    { text: "Battle of Catalaunian Plain", correct: false }
                                     ]
                                     },
       { //13
-  "question": "In what year did the Western Roman Empire come to an end?",
+  "question": "What year did the Western Roman Empire come to an end after the German chieftain Odoacer deposed Emperor Romulus Augustulus?",
   "answers": [
-    { "text": "19 CE", "correct": false },
+    { "text": "219 BC", "correct": false },
     { "text": "1,453 CE", "correct": false },
     { "text": "476 CE", "correct": true },
     { "text": "521 CE", "correct": false }
@@ -128,7 +129,7 @@ const questions = [
     ]
   },
   {//15
-    "question": "In which year did the Constantinople fall to the sieging Ottoman armies under Mehmed II?",
+    "question": "What year did Constantinople fall to the sieging Ottoman armies under Sultan Mehmed II?",
     "answers": [
       { "text": "1453", "correct": true },
       { "text": "1424", "correct": false },

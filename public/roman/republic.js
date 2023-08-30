@@ -28,16 +28,15 @@ const questions = [
           { text: 'Battle of Cannae', correct: false }
         ]
       },
-    {
-        //4
-        question: "When did Julius Caesar get assassinated?",
+      { //4
+        question: "What was the earliest written legislation of ancient Roman law called?",
         answers: [
-          { text: "March 14, 44 BC", correct: false },
-          { text: "March 14, 45 BC", correct: false },
-          { text: "March 15, 44 BC", correct: true },
-          { text: "March 15, 45 BC", correct: false },
-        ],
-    },
+        { text: "Liber Judiciorum", correct: false },
+        { text: "Code of Justinian", correct: false },
+        { text: "Law of the Twelve Tables", correct: true },
+        { text: "Code of Canon Law", correct: false }
+        ]
+        },
     { //5
         question: "Which general famously crossed the Alps with elephants during the Second Punic War?",
         answers: [

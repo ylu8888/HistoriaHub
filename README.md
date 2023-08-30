@@ -2,6 +2,8 @@
 
 ## Website Link: https://historiahub.onrender.com/
 
+###(If the website is down it means the server is restarting, please refresh in ~30 seconds!
+
 **Full Stack Personal Project:**
 
 **Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes**

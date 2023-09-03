@@ -38,7 +38,7 @@
 
 ![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/825775e7-4001-45ed-b6ac-40f99e65742d)
 
-## **Application Architecture**
+## **Backend Login Architecture**
 
 ![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/1f9ad9cb-6ed5-4c53-bd13-2744852add47)
 

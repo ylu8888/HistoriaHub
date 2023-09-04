@@ -10,7 +10,7 @@ const db_config= {
 var db;
 
 function handleDisconnect() {
-  db = mysql.createConnection(db_config); // Recreate the connection, since
+  db = sql.createConnection(db_config); // Recreate the connection, since
                                                   // the old one cannot be reused.
 
   db.connect(function(err) {              // The server is either down

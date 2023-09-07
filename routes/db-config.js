@@ -10,9 +10,9 @@ const db = sql.createConnection({
 // force mysql to keep connection alive, the login backend works AND mysql doesnt connect
 setInterval(function () {
   db.query('SELECT 1'); //make a query every 5 seconds testing the DB connection
-}, 5000);
+}, 60000);
 
-/*recreate a connection method, doesnt work with the login 
+/*//recreate a connection method, fixes mysql dc but login doesnt work 
 const db_config= {
     host:process.env.DATABASE_HOST,
     user:process.env.DATABASE_USER,

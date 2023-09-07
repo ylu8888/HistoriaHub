@@ -7,4 +7,8 @@ const db = sql.createConnection({
     database:process.env.DATABASE
 })
 
+setInterval(function () {
+  db.query('SELECT 1');
+}, 5000);
+
 module.exports = db;

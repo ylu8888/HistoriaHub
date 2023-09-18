@@ -2,13 +2,11 @@
 
 ## Website Link: https://historiahub.onrender.com/
 
-**Full Stack Personal Project:**
-
 **Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes**
 
 **Tech Used: Node.js, Express, MySQL, Bootstrap, JS, HTML, CSS, & deployed to Render**
 
--Created a fully responsive home page and made interactive quizzes for each historical time period
+-Designed quizzes for each historical time period and implemented a points system
 
 -Implemented a user login system to allow CRUD operations on the user list & authentication
 

@@ -4,7 +4,7 @@
 
 **Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes**
 
-**Tech Used: Node.js, Express, MySQL, Bootstrap, JS, HTML, CSS, & deployed to Render**
+**Tech Used: Node.js, Express, MySQL, Bootstrap, HTML, CSS, & deployed to Render**
 
 -Designed quizzes for each historical time period and implemented a points system
 

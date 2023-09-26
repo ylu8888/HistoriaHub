@@ -396,14 +396,14 @@ active,.nav-bar a:hover{
 }
 
 .paragraphs{
-  color: rgb(212, 207, 207); 
+  color: rgb(206, 202, 202); 
  /* color: white; */
   justify-content: center;
   display: flex;
   align-items: center;
   margin: auto;
   width: 60%;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 2;
   margin-bottom: 10px;
   text-indent: 30px;

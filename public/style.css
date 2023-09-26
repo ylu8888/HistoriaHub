@@ -396,7 +396,8 @@ active,.nav-bar a:hover{
 }
 
 .paragraphs{
-  color: white;
+  color: rgb(212, 207, 207); 
+ /* color: white; */
   justify-content: center;
   display: flex;
   align-items: center;

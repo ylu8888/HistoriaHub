@@ -2,7 +2,7 @@
 
 ## 🌐 Website Link: https://historiahub.onrender.com/
 
-**Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes**
+**Full-Stack Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes**
 
 * 🧠 Designed quizzes for each historical time period and implemented a points system
 

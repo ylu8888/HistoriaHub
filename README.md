@@ -1,16 +1,16 @@
-# HistoriaHub  
+# 🏛️ HistoriaHub  
 
-## Website Link: https://historiahub.onrender.com/
+## 🌐 Website Link: https://historiahub.onrender.com/
 
 **Online educational platform exhibiting Roman, Greek, &amp; other history with quizzes**
 
-**Tech Used: Node.js, Express, MySQL, Bootstrap, HTML, CSS, & deployed to Render**
+* 🧠 Designed quizzes for each historical time period and implemented a points system
 
-* Designed quizzes for each historical time period and implemented a points system
+* 🔐 Implemented a user login system to allow CRUD operations on the user list & authentication
 
-* Implemented a user login system to allow CRUD operations on the user list & authentication
+* 💾 Stored user data in MySQL database to track their quiz/reading progress & suggest improvements
 
-* Stored user data in MySQL database to track their quiz/reading progress & suggest improvements
+**⚙️ Tech Used: Node.js, Express, MySQL, Bootstrap, HTML, CSS, & deployed to Render**
 
 ## **WEBSITE PREVIEW:**
 

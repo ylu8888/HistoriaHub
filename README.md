@@ -14,8 +14,6 @@
 
 ## **WEBSITE PREVIEW:**
 
-## **HOME PAGE:**
-
 ![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/27177c9e-218b-4afe-8bc4-cc44e1581565)
 
 ## **LOGIN PAGE:**
